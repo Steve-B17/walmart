@@ -1,1 +1,1 @@
-###Initial stages of Walmart_Project
+Initial stages of Walmart_Project
