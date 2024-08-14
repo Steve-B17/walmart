@@ -8,6 +8,7 @@ import numpy as np
 # def load_models():
 #     demand_forecasting_model = load('demand_forecasting_model.joblib')
 #     inventory_management_model = load('inventory_management_model.joblib')
+#     customer_segmentation_model = load('customer_segmentation_model.joblib')
 #     recommendation_model = load('recommendation_model.joblib')
 #     return (demand_forecasting_model, inventory_management_model, customer_segmentation_model, recommendation_model)
 
@@ -15,7 +16,7 @@ import numpy as np
 
 st.title("Retail Management System")
 st.sidebar.title("Navigation")
-page = st.sidebar.radio("Go to", ["Demand Forecasting", "Inventory Management", "Recommendations"])
+page = st.sidebar.radio("Go to", ["Demand Forecasting", "Inventory Management", "Customer Segmentation & Recommendations"])
 
 if page == "Demand Forecasting":
     st.header("Demand Forecasting")
